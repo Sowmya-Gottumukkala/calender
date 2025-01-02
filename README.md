@@ -1,8 +1,275 @@
-# Getting Started with Create React App
+# Calendar Application for Communication Tracking
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This Calendar Application is designed to help companies maintain strong professional relationships by efficiently tracking communications with other organizations. The application enables users to log past interactions, plan future communications, and manage engagement frequency based on predefined schedules.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Features
+
+
+
+
+## Login Credentials
+
+Login is required for both admin and user access. Please include the necessary credentials in the submission email.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Admin Module
+- *Company Management*: Add, edit, and delete companies, including their details:
+  - Name
+  - Location
+  - LinkedIn Profile
+  - Emails
+  - Phone Numbers
+  - Comments
+  - Communication Periodicity
+ 
+
+
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+### User Module
+- *Dashboard*: Grid view displaying:
+  - Company Name
+  - Last Five Communications
+  - Next Scheduled Communication
+- *Color-Coded Highlights*:
+  - Red for overdue communications
+  - Yellow for communications due today
+- *Interactive Features*: Hover effect for displaying notes on completed communications.
+- *Communication Action*: Log new communications with a modal input for details.
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Notifications
+- Displays overdue and due communications with grids for quick reference.
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Calendar View
+- View past and upcoming communications with a calendar interface.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Reporting and Analytics Module (Optional)
+- *Communication Frequency Report*: Visual representation of communication frequency.
+- *Engagement Effectiveness Dashboard*: Metrics on response effectiveness.
+- *Overdue Communication Trends*: Trendline showing overdue communications.
+- *Downloadable Reports*: Exportable reports in PDF or CSV format.
+- *Real-Time Activity Log*: Live feed of communication activities.
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Setup the Application
+
+- Install dependencies: Run the following command to install the necessary dependencies:
+
+
+      npm install
+
+  
+
+
+
+
+## Running the Application
+To start the development server, run:
+
+
+      npm run dev
+
+
+
+
+
+## Deployment
+To deploy the application, you can use platforms such as Vercel, Netlify, or GitHub Pages.## Available Scripts
 
 In the project directory, you can run:
 
@@ -17,7 +284,7 @@ You may also see any lint errors in the console.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
 
 ### `npm run build`
 
@@ -27,7 +294,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ### `npm run eject`
 
@@ -39,32 +306,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
