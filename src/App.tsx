@@ -17,7 +17,7 @@ const App: React.FC = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/user" element={<UserModule />} />
         <Route path="/notifications" element={<Notifications />} />
-        <Route path="/calendarApp" element={<CalendarApp />} />
+        <Route path="/calendarApp" element={<Calendar />} />
         <Route path="/reporting" element={<Reporting />} />
         <Route path="/admin" element={<AdminModule />} /> {/* Add the Admin Module route */}
       </Routes>
