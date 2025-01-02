@@ -1,7 +1,7 @@
 {
   "name": "calender",
   "version": "0.1.0",
-  "homepage": "https://sowmya-gottumukkala.github.io/react-gh-pages",
+  "homepage": "https://sowmya-gottumukkala.github.io/calender",
   "private": true,
   "dependencies": {
     "@fullcalendar/daygrid": "^6.1.15",
