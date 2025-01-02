@@ -6,7 +6,7 @@
 
 
 
-## Check Calendar-App Live Here  -   [(https://sowmya-gottumukkala.github.io/calender/](https://sowmya-gottumukkala.github.io/calender/)
+## Check Calendar-App Live Here  -   [https://sowmya-gottumukkala.github.io/calender/](https://sowmya-gottumukkala.github.io/calender/)
 
 
 
