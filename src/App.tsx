@@ -14,6 +14,8 @@ const App: React.FC = () => {
     <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
+        <Route path="/calender" element={<MainPage />} />
+        <Route path="/react-gh-pages" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/user" element={<UserModule />} />
         <Route path="/notifications" element={<Notifications />} />
