@@ -108,4 +108,4 @@ const CalendarView: React.FC = () => {
   );
 };
 
-export default CalendarView;
+export default Calendar;
