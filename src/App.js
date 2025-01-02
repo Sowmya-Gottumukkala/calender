@@ -19,7 +19,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/user" element={<UserModule />} />
         <Route path="/notifications" element={<Notifications />} />
-        <Route path="/calendars" element={<Calendar />} />
+        <Route path="/calendar" element={<Calendar />} />
         <Route path="/reporting" element={<Reporting />} />
         <Route path="/admin" element={<AdminModule />} /> {/* Add the Admin Module route */}
       </Routes>
